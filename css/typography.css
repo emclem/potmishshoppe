@@ -1,0 +1,34 @@
+/* ========================================================================
+   Component: Typography
+ ========================================================================== */
+@font-face {
+	font-family: 'Calibri Light';
+	src: url('../fonts/Calibri-Light.ttf');
+}
+@font-face {
+	font-family: 'Campton Light Italic';
+	src: url('../fonts/Calibri-Light-Italic.ttf');
+}
+@font-face {
+	font-family: 'Campton Light Bold';
+	src: url('../fonts/Calibri-Light-Bold.ttf');
+}
+@font-face {
+	font-family: 'Campton Light Bold Italic';
+	src: url('../fonts/Calibri-Light-Bold-Italic.ttf');
+}
+html, body {
+	font-family: "Calibri Light";
+}
+.italic-text {
+	font-family: 'Campton Light Italic', sans-serif;
+}
+.bold-text {
+	font-family: "Campton Light Bold", sans-serif;
+}
+.bold-italic-text {
+	font-family: 'Campton Light Bold Italic', sans-serif;
+}
+.normal-text {
+	font-family: 'Open Sans', sans-serif;
+}
