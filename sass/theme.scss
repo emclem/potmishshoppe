@@ -1,0 +1,70 @@
+// COLORS
+$color-lightestbrown: #e27654;
+$color-lighterbrown: #af4323;
+$color-lightbrown: #842b12;
+$color-brown: #5f1d05;
+$color-darkbrown: #491202;
+$color-darkerbrown: #310b00;
+$color-darkestbrown: #1a0600;
+$color-lightestwood: #ffe5c6;
+$color-lighterwood: #f4cd9f;
+$color-lightwood: #e8b980;
+$color-wood: #e1ab6b;
+$color-darkwood: #d8984d;
+$color-darkerwood: #c6812f;
+$color-darkestwood: #af650e;
+$color-lightestgrey: #DDD;
+$color-lightergrey: #AAA;
+$color-lightgrey: #999;
+$color-grey: #777;
+$color-darkgrey: #555;
+$color-darkergrey: #333;
+$color-darkestgrey: #111;
+$color-orange: #F90;
+$color-red: #F00;
+$color-blue: #23b5f0;
+$color-pink: #f156ff;
+
+$color-facebook: #00F;
+$color-twitter: #AAF;
+$color-instagram: #B71;
+$color-youtube: #F00;
+
+
+
+
+
+// EXTEND
+%clearspace-extend {
+	padding: 0px;
+	margin: 0px auto;
+}
+
+
+
+// MIXIN
+@mixin clearspace {
+	padding: 0px;
+	margin: 0px auto;
+} 
+@mixin round($radius: 50%) {
+	border-radius: $radius;
+	-o-border-radius: $radius;
+	-ms-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;	
+}
+@mixin transition($duration: 500ms) {
+	transition: all $duration ease-IN;
+	-o-transition: all $duration ease;
+	-ms-transition: all $duration ease;
+	-moz-transition: all $duration ease;
+	-webkit-transition: all $duration ease;
+}
+@mixin shadow($thickness: 25px) {
+	box-shadow: 0 0 $thickness 1px rgba(#000, 0.15);
+	-o-box-shadow: 0 0 $thickness 1px rgba(#000, 0.2);
+	-ms-box-shadow: 0 0 $thickness 1px rgba(#000, 0.15);
+	-moz-box-shadow: 0 0 $thickness 1px rgba(#000, 0.15);
+	-webkit-box-shadow: 0 0 $thickness 1px rgba(#000, 0.15);
+}
